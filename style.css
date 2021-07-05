@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(132, 132, 221);
+    display: block;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.shop {
+    box-shadow: 3px 13px 19px 28px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 13px 19px 28px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 13px 19px 28px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    height: 80vh;
+    background-image: url(./istockphoto-1139048734-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img {
+    display: flex;
+    width: 100%;
+    transform: rotate(320deg);
+
+}
+
+.text {
+    font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70vw;
+    height: 60vh;
+}
+
+.text p {
+    width: 30vw;
+}
+
+.btn {
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    margin: 1.5rem 0 0;
+    border: none;
+    padding: 1rem 2rem;
+    width: 30vw;
+    border-radius: 0.4rem;
+    background-color: #355cdb;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.btn:hover {
+    background-color: rgb(25, 25, 100);
+}
+
+select {
+    border-radius: .4rem;
+    padding-right: 2rem;
+    padding-left: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background: rgb(212, 230, 235);
+    font-weight: 600;
+    appearance: none;
+   
+}
+
+
+span i {
+    color: crimson;
+    transform: translateX(13.8rem);
+}
+
+span i:hover{
+    transition: 1s ease-in-out 0s;
+    transform: rotate(180deg) translateX(-13.6rem);
+}
